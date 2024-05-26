@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: task-manager
-        image: armanharutyunyan451/task-manager:0.1.0 # {"$imagepolicy": "flux-system:task-manager-policy" }
+        image: armanharutyunyan451/task-manager:0.1.1 # {"$imagepolicy": "flux-system:task-manager-policy" }
         resources:
           limits:
             memory: "128Mi"
