@@ -26,6 +26,8 @@ mongoose.connect(config.MONGO_URI, {
 app.use(cors());
 app.use(express.json());
 
+app.use(express.static("build"));
+
 app.use(middleware.requestLogger);
 
 app.use("/api/login", loginRouter);
